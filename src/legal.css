@@ -1,0 +1,46 @@
+body.legal {
+  background-color: #fff;
+  color: #333;
+}
+
+body.legal h1 {
+  font-size: 26px;
+  margin: 1em 0 0.5em;
+}
+
+body.legal h2 {
+  font-size: 20px;
+  margin: 2em 0 0.5em;
+}
+
+body.legal h3 {
+  font-size: 18px;
+  margin: 2em 0 0.5em;
+}
+body.legal p {
+  font-size: 14px;
+  margin: 0 0 1em;
+}
+
+body.legal p {
+  color: #333;
+  max-width: 40em;
+  text-align: justify;
+}
+
+@media screen and (min-width: 800px) {
+  body.legal h1 {
+    font-size: 26px;
+  }
+
+  body.legal h2 {
+    font-size: 20px;
+  }
+
+  body.legal h3 {
+    font-size: 18px;
+  }
+  body.legal p {
+    font-size: 14px;
+  }
+}
